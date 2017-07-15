@@ -12,7 +12,8 @@ See PROG 02: Represent! here: https://youtu.be/PS5ZPBP95JU
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/Frame_2.png" height="400" alt="Screenshot"/>
+<img src="screenshots/Frame.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
