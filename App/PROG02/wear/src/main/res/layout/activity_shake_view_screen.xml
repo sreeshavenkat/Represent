@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sreeshav.prog02.ShakeViewScreen"
+    tools:deviceIds="wear">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="2012 Election Data \nAlameda County\n"
+        android:textColor="#FFFFFF"
+        android:id="@+id/election_data"
+        android:layout_marginTop="155dp"
+        android:gravity="center"
+        android:background="#CF1043"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="15dp"
+        android:text="Select"
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/select_rep"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="75dp"
+        android:background="#CF1043"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#25426A"
+        android:layout_marginTop="-50dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sen. Dianne Feinstein \nParty: Democrat"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Represent!"
+        android:layout_marginTop="-80dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        app:layout_box="all" />
+
+</android.support.wearable.view.BoxInsetLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_detailed_view"
+    tools:context="com.example.sreeshav.prog02.DetailedView">
+
+    <TextView
+        android:id="@+id/rep1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Representative Barbara Lee"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/imageRep1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:paddingRight="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/barbaraleecomp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party: Democrat"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/rep1Party"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="115dp"
+        android:textSize="16dp"
+        android:layout_below="@+id/rep1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website: lee.house.gov"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/rep1Website"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="115dp"
+        android:textSize="16dp"
+        android:layout_below="@+id/rep1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: barbaralee@us.gov"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/rep1Email"
+        android:layout_marginTop="61dp"
+        android:layout_marginLeft="115dp"
+        android:textSize="16dp"
+        android:layout_below="@+id/rep1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Term Ends: January 3, 2017"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/rep1Term"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="115dp"
+        android:textSize="16dp"
+        android:layout_below="@+id/rep1" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:text="Committees"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/button_committees"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/goButtonBackground"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:text="Bills"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/button_bills"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="175dp"
+        android:background="@color/colorWhite"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="House Committee on Appropriations"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/com1"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/button_committees"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/break1"
+        android:background="@color/goButtonBackground"
+        android:layout_below="@id/com1"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="House Committee on The Budget"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/com2"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/break1"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/break2"
+        android:background="@color/goButtonBackground"
+        android:layout_below="@id/com2"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="House Committee on The Economy"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/com3"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/break2"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/break3"
+        android:background="@color/goButtonBackground"
+        android:layout_below="@id/com3"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

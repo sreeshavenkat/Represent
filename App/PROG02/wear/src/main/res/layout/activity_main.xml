@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25426A"
+    tools:context="com.example.sreeshav.prog02.MainActivity"
+    tools:deviceIds="wear">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Represent!"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:gravity="center"
+        app:layout_box="all" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="GO!"
+        android:textColor="#FFFFFF"
+        android:id="@+id/go"
+        android:layout_marginTop="175dp"
+        android:gravity="center"
+        android:background="#CF1043"/>
+
+</android.support.wearable.view.BoxInsetLayout>

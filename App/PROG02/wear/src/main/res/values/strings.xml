@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PROG 02</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="title_activity_main_view">MainView</string>
+    <string name="title_activity_vote_view">VoteView</string>
+    <string name="title_activity_shakeview">shakeview</string>
+    <string name="title_activity_shake_view_screen">ShakeViewScreen</string>
+</resources>

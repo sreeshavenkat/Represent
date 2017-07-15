@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sreeshav.prog02.VoteView"
+    tools:deviceIds="wear">
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="State: California"
+        android:layout_marginTop="-40dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        app:layout_box="all" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/break1"
+        android:background="#CF1043"
+        android:layout_below="@id/state"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/county"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="County: Alameda"
+        android:layout_marginTop="-12dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        app:layout_box="all" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/break2"
+        android:background="#CF1043"
+        android:layout_below="@id/county"
+        android:layout_marginTop="110dp" />
+
+    <TextView
+        android:id="@+id/obama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Obama: 80% of Vote"
+        android:layout_marginTop="19dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        app:layout_box="all" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/break3"
+        android:background="#CF1043"
+        android:layout_below="@id/obama"
+        android:layout_marginTop="140dp" />
+
+    <TextView
+        android:id="@+id/romney"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Romney: 20% of Vote"
+        android:layout_marginTop="49dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        app:layout_box="all" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BACK"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/back"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:background="#CF1043"/>
+
+    <View
+        android:id="@+id/header_background"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#25426A"
+        android:layout_marginTop="-50dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Represent!"
+        android:layout_marginTop="-80dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        app:layout_box="all" />
+
+</android.support.wearable.view.BoxInsetLayout>
